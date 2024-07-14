@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories
+vendor/
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+
+# Ignore .env files if used for configuration
+.env
+
+# macOS specific files/directories
+.DS_Store
+
+# Visual Studio Code directory
+.vscode/
+
+# IntelliJ IDEA directory
+.idea/
+
+# vim-go binaries
+*.exe
+
+# End of Go HTTP Client .gitignore
